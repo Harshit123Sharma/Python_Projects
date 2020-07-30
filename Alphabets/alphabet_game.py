@@ -11,7 +11,7 @@ root.config(background='black')
 
 str1 = StringVar()
 str1.set('WELCOME!!!')
-frame1 = Frame(root,bg='black')
+frame1 = Frame(root,bg='white')
 frame1.grid()
 
 Disp = Canvas(frame1, width=160,height=120,bg='black')
