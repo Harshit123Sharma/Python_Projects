@@ -31,7 +31,7 @@ def user_input():
         return ('X', 'O')
     elif mark == 'O':
         return ('O', 'X')
-    else:
+    elif (mark != 'X' and mark != 'O') :
         print('\nNot in choice, choose again from option given -_- ')
 
 
